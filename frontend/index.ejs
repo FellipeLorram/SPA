@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navigation_mobile">
+        <div class="icon_mobile_container">
+            <a href="/" data-link>
+                <span class="material-icons link_icon_mobile">dashboard</span>
+            </a>
+        </div>
+        <div class="icon_mobile_container">
+            <a href="/pacientes" data-link>
+                <span class="material-icons link_icon_mobile">groups</span>
+            </a>
+        </div>
+        <div class="icon_mobile_container">
+            <a href="/meus-horarios" data-link>
+                <span class="material-icons link_icon_mobile">today</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="navigation">
+            <div class="logo">
+                Pryclia Eliziário
+            </div>
+            <div class="nav_links">
+                <a href="/" class="nav_link" data-link>
+                    <span class="link_text">Centro de Controle</span>
+                    <span class="material-icons link_icon">dashboard</span>
+                </a>
+                <a href="/pacientes" class="nav_link" data-link>
+                    <span class="link_text">Pacientes</span>
+                    <span class="material-icons link_icon">groups</span>
+                </a>
+                <a href="/meus-horarios" class="nav_link" data-link>
+                    <span class="link_text">Meus Horarios</span>
+                    <span class="material-icons link_icon">today</span>
+                </a>
+            </div>
+        </div>
+        <div id="app">
+
+        </div>
+
+    </div>
+
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+
+</html>
